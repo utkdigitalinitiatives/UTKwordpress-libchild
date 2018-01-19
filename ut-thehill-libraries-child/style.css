@@ -1,0 +1,438 @@
+/*
+Theme Name:     The Hill - Libraries Child Theme
+Description:    Libraries customizations of the stock UT WordPress theme
+Author:         Dan Greene
+Template:       ut-thehill
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+.widget_search,.widget_archive {
+	border:solid #FF8200 1px;
+	padding:10px;
+}
+
+.widget_search input {
+	height:39px;
+	width:100%;
+	border:1px solid #ccc;
+	border-radius:4px;
+}
+
+/*
+.widget_nav_menu h3.widget-title{
+	background: #EBEA64;
+	text-transform: none;
+}
+*/
+.widget_rss h3.widget-title {
+	background:#F0EDE3;
+	text-transform:none;
+}
+
+.rss-date {
+	display:block;
+	border-bottom:solid 1px #ccc;
+}
+
+.linkbox {
+background: #ffffff;
+color: #58595B;
+font-weight: 300;
+font-size: 16px;
+padding:5px;
+text-align: center;
+border: 1px solid #ddd;
+}
+
+h3.summitt {
+background: #B9E1E2;
+color: #58595B;
+font-weight: 300;
+font-size: 16px;
+padding:5px; 
+}
+
+h3.eureka {
+background: #EBEA64;
+color: #58595B;
+font-weight: 300;
+font-size: 16px;
+padding:5px; 
+}
+
+h3.eureka-home-top {
+background: #EBEA64;
+color: #58595B;
+font-weight: 300;
+font-size: 16px;
+padding: 5px;
+margin-top: 0px;
+}
+
+.main-home-content {
+	padding-left: 15px;
+}
+
+.main-home-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+.main-home-list-item {
+	margin-bottom: 10px;
+	border-bottom:solid 1px #ccc;
+	}
+	
+.main-home-list-item a {
+	text-decoration: none;
+	background: none!important;
+	}
+
+.main-home-news-feed {
+	list-style: none;
+	padding-left: 0;
+}
+
+.main-home-feed-item {
+	margin-bottom: 10px;
+	border-bottom:solid 1px #ccc;
+}
+
+.screen-reader-text {
+	position:absolute;
+	width:1px;
+	height:1px;
+	padding:0;
+	margin:-1px;
+	overflow:hidden;
+	clip:rect(0,0,0,0);
+	border:0;
+}
+
+.libchat_online,.libchat_offline {
+	text-align:left!important;
+}
+
+.subsite-title {
+	float:right;
+	margin-top:10px;
+	margin-bottom:0;
+	width:94%;
+}
+
+.entry-title {
+	margin-top:15px;
+	font-size:22px;
+}
+
+.entry-content {
+	padding-bottom:40px;
+}
+
+/* Fix For datepicker color being unreadable in Firefox */
+.ui-datepicker-month,.ui-datepicker-year {
+	color:#000;
+}
+
+/* Fix AM/PM selector width */
+.gfield_time_ampm select {
+	min-width:8rem!important;
+}
+
+.red {
+	color:red;
+}
+
+#libchat_cbb3e39658d3f35979d91f22200d30f3,#libchat_1d8fbd26f92a65c9acfb30eb0e3913f8,#libchat_aa52004bcd079142560b03f985eea438 {
+	float:right;
+	margin-top:-15px;
+}
+
+@media screen and (max-width:600px) {
+/* 	Hodges */
+	#libchat_cbb3e39658d3f35979d91f22200d30f3 {
+		display:inline-block;
+		float:left;
+		clear: both;
+		margin-right: 60px;
+		margin-top:-40px;
+	}
+	
+	/* 	Ag */
+	#libchat_1d8fbd26f92a65c9acfb30eb0e3913f8 {
+		display:inline-block;
+		float:left;
+		clear: both;
+		margin-right: 60px;
+		margin-top:-40px;
+	}
+	
+/* 	Music */
+	#libchat_aa52004bcd079142560b03f985eea438 {
+		display:inline-block;
+		float:left;
+		clear: both;
+		margin-right: 60px;
+		margin-top:-40px;
+	}
+}
+
+/*====[  Home page search ]========================================= */
+@media screen and (min-width:1200px) {
+	.search-bg {
+		display:block;
+		clear:both;
+		height:233px;
+		padding-top:50px;
+		background:#fff url(https://www.lib.utk.edu/template/2016/images-utlibraries/main-search-bg/rotate.php) no-repeat;
+	}
+	
+	.search-bg-ag {
+		display:block;
+		clear:both;
+		height:233px;
+		padding-top:50px;
+		background:#fff url(https://www.lib.utk.edu/template/2016/images-utlibraries/ag-search-bg/rotate.php) no-repeat;
+	}
+	
+	.search-bg-music {
+		display:block;
+		clear:both;
+		height:233px;
+		padding-top:50px;
+		background:#fff url(https://www.lib.utk.edu/template/2016/images-utlibraries/crumb-twin-suns.png) no-repeat;
+	}
+	
+	.search-bg-sw {
+		display:block;
+		clear:both;
+		height:233px;
+		padding-top:50px;
+		background:#fff url(https://www.lib.utk.edu/template/2016/images-utlibraries/books.jpg) no-repeat;
+	}
+}
+
+.onesearch {
+	background: #fff;
+	height:160px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:20px;
+	display:block;
+	clear:both;
+}
+
+.onesearch-logo {
+	float:left;
+	margin-top:-20px;
+margin-left: -14px;
+}
+
+
+.chat-home {
+	float:right;
+	margin-top:-45px;
+	clear:both;
+}
+
+.search-box {
+	display:block;
+	clear:both;
+	background:#f2f2f3;
+	margin-top:35px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:15px;
+}
+
+.search-link-box {
+	text-align:right;
+}
+
+.search-link {
+	display:inline;
+/* 	margin-right: 15px; */
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.search-options {
+	text-align: right;
+	clear: both;
+}
+
+.search-option {
+	text-align: right;
+	margin-right: 15px;
+	clear: both;
+}
+
+@media screen and (max-width:450px) {
+	.search-box {
+padding:0;
+margin: 0;
+}
+.search-options {
+	clear: both;
+}
+.search-option {
+	display: inline;
+		padding-left:10px;
+	padding-right:10px;
+	
+}
+}
+
+/*.search input.searchfield {
+	padding: 0 2% 0 8%;
+	margin-top: 0px;
+	background: #fff url(images/bg-search.gif) 8px 50% no-repeat;
+	width: 100%;
+	height: 35px;
+	margin-right: 1%;
+
+	-webkit-border-radius:14px;
+	  -moz-border-radius: 14px;
+		   border-radius: 14px;
+*/
+	
+}
+
+.search input.searchsubmit {
+	width:19.452%;
+}
+
+p.smaller {
+	font-size:.9em;
+}
+
+/*====[  End Home page search ]========================================= */
+
+/*====[  Begin LibCal Widget styles ]========================================= */
+.s-lc-whw thead {
+	background-color:#F5F5F5;
+}
+
+.s-lc-whw-head-date {
+	color:#999;
+}
+
+.s-lc-whw-today-h {
+	background-color:#ddd;
+}
+
+.s-lc-whw-today {
+	background-color:#F5F5F5;
+}
+
+.s-lc-whw-bh {
+	text-align:right;
+	white-space:nowrap;
+}
+
+.s-lc-whw-locname {
+	font-weight:700;
+}
+
+.s-lc-whw-sublocname {
+	padding-left:10px!important;
+}
+
+.s-lc-whw-footnote {
+	color:#555;
+	font-size:80%;
+}
+
+.s-lc-whw-footnote td:hover {
+	background-color:#fff!important;
+}
+
+/* Below styles can be removed if you are already using Bootstap v3 in host page */
+
+.s-lc-whw-cont {
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+/* 	font-size:12px; */
+}
+
+.s-lc-whw-pr,.s-lc-whw-ne {
+	padding:5px 10px;
+/* 	font-size:12px; */
+	line-height:1.5;
+	border-radius:3px;
+	color:#333;
+	background-color:#fff;
+	border-color:#ccc;
+	display:inline-block;
+	margin-bottom:0;
+	font-weight:400;
+	text-align:center;
+	vertical-align:middle;
+	cursor:pointer;
+	background-image:none;
+	border:1px solid transparent;
+	white-space:nowrap;
+}
+
+.s-lc-whw-pr:disabled {
+	background-color:#efefef;
+}
+
+.s-lc-whw-ne:disabled {
+	background-color:#efefef;
+}
+
+.s-lc-whw {
+	width:100%;
+	margin-bottom:20px;
+	max-width:100%;
+	background-color:transparent;
+	border-bottom:none;
+	border-left:none;
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+.s-lc-whw>tbody>tr>td {
+	padding:5px;
+}
+
+.s-lc-whw>thead>tr>th {
+	vertical-align:bottom;
+	border-bottom:2px solid #ddd;
+	padding:5px;
+}
+
+.s-lc-whw th {
+	border-top:none;
+	border-bottom:none;
+	border-right:none;
+}
+
+.sr-only {
+	position:absolute;
+	width:1px;
+	height:1px;
+	padding:0;
+	margin:-1px;
+	overflow:hidden;
+	clip:rect(0,0,0,0);
+	border:0;
+}
+
+@media (max-width: 768px) {
+	.s-lc-whw-cont .table-responsive {
+		width:100%;
+		margin-bottom:15px;
+		overflow-y:hidden;
+		overflow-x:scroll;
+		-ms-overflow-style:-ms-autohiding-scrollbar;
+		border:1px solid #ddd;
+		-webkit-overflow-scrolling:touch;
+	}
+	
+	.s-lc-whw td {
+		white-space:nowrap;
+	}
+}
+
+/*====[  End LibCal Widget styles ]========================================= */
